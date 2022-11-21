@@ -14,14 +14,13 @@
       crossorigin="anonymous"
     />
     <!-- LINK CSS MIO -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <!-- LINK FAVICON -->
-    <link rel="icon" type="image/png" href="assets/img/favicon_nf.png" />
-    <title>NF Diseños | Inicio</title>
+    <link rel="icon" type="image/png" href="../assets/img/favicon_nf.png" />
+    <title>NF Diseños | Sobre mí</title>
   </head>
-</html>
 
-<body>
+  <body>
     <!-- NAV+LOGO -->
     <div class="container-fluid bg-light">
       <div class="row">
@@ -29,7 +28,7 @@
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"
-                ><img src="assets/img/logotiponf.svg" alt="NFLOGOTIPO"
+                ><img src="../assets/img/logotiponf.svg" alt="NFLOGOTIPO"
               /></a>
               <button
                 class="navbar-toggler"
@@ -45,23 +44,30 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto textcolor-dark">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="../index.html"
                       >Inico</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/sobremi.html">Sobre mí</a>
+                    <a class="nav-link" href="#">Sobre mí</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/fotografia.html"
+                    <a class="nav-link" href="../pages/fotografia.html"
                       >Fotografías</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/trabajos.html">Trabajos</a>
+                    <a class="nav-link" href="../pages/trabajos.html"
+                      >Trabajos</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    <a class="nav-link" href="../pages/contacto.html"
+                      >Contacto</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -72,16 +78,45 @@
     </div>
     <div class="encabezado_barranegra"></div>
 
-    <!-- PRIMER PARRAFO -->
+    <!-- PRIMER PARRAFO Y IMAGEN PERFIL -->
     <div class="container-fluid">
       <div class="row">
         <div
-          class="col-12 col-lg-12 d-flex justify-content-center align-items-center textonegrobgblaco"
+          class="col-12 col-lg-6 d-flex flex-column justify-content-end align-items-end col align-self-start ps-5 parrafonegroperfil"
         >
-          <h2 data-aos="fade-up" data-aos-duration="700">
-            El diseño de tus sueños,<br />
-            traído a la realidad.
-          </h2>
+          <h2 data-aos="fade-left" data-aos-duration="300">¡HOLA!</h2>
+          <p class="text-end" data-aos="fade-right" data-aos-duration="500">
+            Soy Nahuel Fidani diseñador freelancer, con cuatro años de
+            experiencia en el manejo de herramientas de diseño grafíco, realizo
+            material digital y fotográfico, para contenido de redes sociales y
+            sitios web.
+          </p>
+        </div>
+
+        <div
+          class="col-12 col-lg-6 d-flex justify-content-center align-items-center parrafonegroperfil"
+        >
+          <img
+            src="../assets/img/img_tipo_fachero.png"
+            alt="imagen de perfil"
+            data-aos="fade-up"
+            class="img-fluid pl-3"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- IMAGEN VECTOR RARO -->
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-12 col-lg-12 d-flex justify-content-end align-items-end p-0"
+        >
+          <img
+            src="../assets/img/img_vectorraro_todos_izq.svg"
+            alt="vectorraro"
+            class="img-fluid w-100"
+          />
         </div>
       </div>
     </div>
@@ -90,39 +125,34 @@
     <div class="container-fluid">
       <div class="row">
         <div
-          class="col-12 col-lg-12 d-flex justify-content-center align-items-center textoblacobgnegro"
+          class="col-12 col-lg-12 d-flex justify-content-center align-items-center fotografiaparrafo parrafonegroperfil"
         >
-          <h2 data-aos="zoom-in" data-aos-duration="800">
-            No lo pienses más <br />
-            contacta conmigo.
-          </h2>
+          <p class="text-center" data-aos="fade-up" data-aos-duration="600">
+            Fanatico de la fotografía y de la cultura japonesa, te invito a
+            pasar a mi pagina de fotografía. Donde hablo de porque la realizo y
+            que senti ese momento al fotear.
+          </p>
         </div>
       </div>
     </div>
 
-    <!-- IMAGEN VECTOR RARO -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-lg-12 p-0 mt-5">
-          <img
-            src="assets/img/img_vectorraro_todos.svg"
-            alt="vectorraro"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- TERCER PARRAFO -->
+    <!-- BOTON -->
     <div class="container-fluid">
       <div class="row">
         <div
-          class="col-12 col-lg-12 d-flex justify-content-center align-items-center textonegrobgblaco"
+          class="cuerpo_boton_completo col-12 col-lg-12 d-flex justify-content-center align-items-center"
+          data-aos="zoom-in-up"
         >
-          <h2 data-aos="zoom-in" data-aos-duration="800">
-            Buscando proponer <br />
-            miradas en el diseño web.
-          </h2>
+          <div class="solo_boton">
+            <a href="fotografias.html"
+              ><button>
+                <img
+                  src="../assets/img/icon-octurador.svg"
+                  alt="obturador de camara logo"
+                />¡Las fotos estan acá!
+              </button></a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -138,19 +168,19 @@
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/nahuelfidani/"
-            ><img src="assets/img/icon-in.svg" alt="logo del linkedin"
+            ><img src="../assets/img/icon-in.svg" alt="logo del linkedin"
           /></a>
           <a
             href="https://www.instagram.com/fidaninahuel/?hl=es"
             target="_blank"
             rel="noopener noreferrer"
-            ><img src="assets/img/icon-ig.svg" alt="logo de instagram"
+            ><img src="../assets/img/icon-ig.svg" alt="logo de instagram"
           /></a>
           <a
             href="https://www.behance.net/nahuelfidani"
             target="_blank"
             rel="noopener noreferrer"
-            ><img src="assets/img/icon-be.svg" alt="logo de behance"
+            ><img src="../assets/img/icon-be.svg" alt="logo de behance"
           /></a>
         </div>
         <div class="pie_copyright">
