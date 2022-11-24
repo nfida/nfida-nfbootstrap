@@ -159,3 +159,241 @@ a {
   font-family: font1;
   color: black;
 }
+
+.regular_trabajos {
+  color: black;
+  font-size: 45px;
+  font-family: font3;
+}
+
+.caja_form {
+  width: 700px;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.caja_form h3 {
+  font-family: font1;
+  color: black;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.caja_nombre_apellido {
+  display: flex;
+}
+
+::placeholder {
+  color: white;
+  text-align: center;
+}
+
+.caja_nombre_apellido input {
+  height: 70px;
+  width: 300px;
+  font-size: 16px;
+  font-family: font3;
+  margin: 1px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+}
+
+.email_caja input {
+  font-family: font3;
+  font-size: 16px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 70px;
+  width: 600px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+}
+
+textarea {
+  font-family: font3;
+  font-size: 16px;
+  margin: 1px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: black;
+
+  color: white;
+}
+
+.submit_imput {
+  font-family: font3;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 1px;
+  height: 70px;
+  width: 600px;
+  background-color: black;
+  color: white;
+}
+
+/* Estilos Mobile */
+
+@media screen and (max-width: 950px) {
+  .cuerpo_img_completo h2 {
+    font-size: 100px;
+  }
+
+  .cuerpo_img_completo p {
+    font-size: 30px;
+  }
+
+  .cuerpo_img_completo img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .encabezado_nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cuerpo_img_cara {
+    display: none;
+  }
+
+  .cuerpo_img_completo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solo_boton button {
+    width: 300px;
+  }
+
+  .cuerpo_parrafo_derecha p {
+    margin: 0;
+  }
+
+  .cuerpo_parrafo_centro {
+    margin-top: 100px;
+  }
+
+  .cuerpo_parrafo_centro p {
+    font-size: 30px;
+  }
+
+  .caja_form {
+    width: 90%;
+  }
+
+  .caja_form form {
+    width: 100%;
+  }
+
+  .email_caja input {
+    width: 100%;
+  }
+
+  .caja_nombre_apellido input {
+    width: 100%;
+  }
+
+  .submit_imput {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .encabezado_nav a {
+    font-size: 15px;
+  }
+  .encabezado_nav li {
+    margin: 0px 3px 0px 3px;
+  }
+
+  .cuerpo_parrafo_derecha {
+    width: 100%;
+  }
+
+  .cuerpo_parrafo_derecha h2 {
+    margin-bottom: 20px;
+  }
+
+  .cuerpo_parrafo_derecha p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .cuerpo_parrafo_centro {
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cuerpo_parrafo_centro p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .cuerpo_boton_completo {
+    margin: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  .solo_boton a {
+    display: flex;
+  }
+
+  .solo_boton button {
+    width: 250px;
+  }
+
+  .solo_boton img {
+    width: 80px;
+    height: 80px;
+    left: -35px;
+    top: -45px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .contacto_cuerpo_redes {
+    flex-direction: column;
+  }
+
+  .caja_nombre_apellido {
+    flex-direction: column;
+  }
+
+  .email_caja input {
+    width: 100%;
+  }
+
+  .caja_nombre_apellido input {
+    width: 100%;
+  }
+
+  .submit_imput {
+    width: 100%;
+  }
+}
